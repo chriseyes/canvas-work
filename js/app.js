@@ -2,6 +2,34 @@
 
 window.onload = function(){
 
+	var c=document.getElementById("canvas3");
+  var ctx=c.getContext("2d");
+  var img=new Image();
+  		img.src= "navireredresse.jpg";
+	console.log(img);
+  ctx.drawImage(img,10,10,200,200);
+  var img2=new Image();
+  		img2.src = "coque1.jpg";
+  console.log(img2);
+  ctx.drawImage(img2,210,210,200,200);
+  img2.addEventListener('load', function () {
+
+    var interval = setInterval(function() {
+      var x = 0, y = 0;
+
+      return function () {
+        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+        ctx.drawImage(img, x, y);
+
+        x += 1;
+        if (x > ctx.canvas.width) {
+          x = 0;
+        }
+      };
+    }(), 1000/40);
+  },false);
+
+
 	var canvas = document.querySelector('#canvas'),
 		contexte = canvas.getContext('2d');
 
