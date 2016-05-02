@@ -5,6 +5,22 @@ window.onload = function(){
 	var c=document.getElementById("canvas");
   var ctx=c.getContext("2d");
 
+if (window.devicePixelRatio > 1) {
+    var canvasWidth = c.width;
+    var canvasHeight = c.height;
+
+    c.width = canvasWidth * window.devicePixelRatio;
+    c.height = canvasHeight * window.devicePixelRatio;
+    c.style.width = canvasWidth;
+    c.style.height = canvasHeight;
+
+    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    
+}
+
+
+
+
  var drawimage = function(context,src,x,y,width,height){
  		var image = new Image();
  		image.src = src;
