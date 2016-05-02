@@ -3,9 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="841.89px" height="595.28px" viewBox="0 0 841.89 595.28" enable-background="new 0 0 841.89 595.28" xml:space="preserve">
-<g id="Calque_1" display="none">
+<g id="image">
 	
-		<image display="inline" overflow="visible" width="738" height="498" xlink:href="data:image/jpeg;base64,/9j/4Q85RXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUAAAABAAAAYgEbAAUAAAABAAAA
+		<image overflow="visible" width="738" height="498" xlink:href="data:image/jpeg;base64,/9j/4Q85RXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUAAAABAAAAYgEbAAUAAAABAAAA
 agEoAAMAAAABAAIAAAExAAIAAAAcAAAAcgEyAAIAAAAUAAAAjodpAAQAAAABAAAApAAAANAACvyA
 AAAnEAAK/IAAACcQQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzADIwMTU6MDc6MTkgMTI6NTg6
 MjkAAAAAA6ABAAMAAAAB//8AAKACAAQAAAABAAAC4qADAAQAAAABAAAB8gAAAAAAAAAGAQMAAwAA
@@ -2603,8 +2603,11 @@ UvX9S9f1L1/UvX9S9f1L1/UvX9S9f1L1/UvX9S9f1L1/UvX9S9f1L1/UvX9S9f1L1/UvX9S9f1L1
 L1/UvX9S9f1L1/UvX9S9f1L1/UvX9S9f1L1/UvX9S9f1L1/UvX9R/H/9/wD5+v/Z">
 	</image>
 </g>
-<g id="Calque_2">
+<g id="etambot">
 	<polygon fill="none" stroke="#000000" stroke-miterlimit="10" points="47.668,211.001 54.335,211.001 68.002,349.334 
 		69.668,350.668 69.668,354.334 69.668,358.334 52.335,358.334 44.668,257.334 48.668,253.334 48.668,250.668 50.002,249 	"/>
+</g>
+<g id="courbe_detambot">
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M68,295h4.5c0,30.5,8.75,40.25,48,42.5v3l-48-3L68,295z"/>
 </g>
 </svg>
