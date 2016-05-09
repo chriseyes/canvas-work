@@ -8,7 +8,7 @@ h1{
 	border:1px solid red;
 	margin:20px;
 	transition: 5s ease;
-	background-color: rgba(251,244,230,1);
+	background-color: #fff;
 	max-width: 738px;
 }
 #canvas3{border:3px solid #000;}
